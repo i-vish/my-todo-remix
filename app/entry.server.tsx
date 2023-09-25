@@ -13,6 +13,8 @@ import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
 
 const ABORT_DELAY = 5_000;
+console.log(process.env) // remove this after you've confirmed it is working
+
 
 export default function handleRequest(
   request: Request,
